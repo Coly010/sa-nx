@@ -1,1 +1,1 @@
-export * from './lib/flight-booking.component';
+export * from './lib/route-entry/route-entry.component';

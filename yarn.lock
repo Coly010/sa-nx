@@ -35,6 +35,13 @@
   resolved "https://registry.yarnpkg.com/@angular-architects/paper-design/-/paper-design-1.0.2.tgz#6c876c0c7f95cffa4109e33787ca453c8e34064c"
   integrity sha512-wPz+E+egdbCip4Dq2Jses7FFBrdvceyhAbOL+D4Xa+7wBk4vq6DCSFE+TZ4mozzP/r1PKw4fQSfLxbxbrnSesA==
 
+"@angular-component/router@^0.4.1":
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/@angular-component/router/-/router-0.4.1.tgz#c0256e182091f8926f9dd25db95d9f133ef97940"
+  integrity sha512-7AKTrvgI3oT2TV5utQGGnZEoCjC5hAQ0lYv78KtrII1m7imKyHwjuwjimULJgLus7j2rz+OP07vF2igatwr5pw==
+  dependencies:
+    tslib "^2.0.0"
+
 "@angular-devkit/architect@0.1301.2":
   version "0.1301.2"
   resolved "https://registry.yarnpkg.com/@angular-devkit/architect/-/architect-0.1301.2.tgz#a646862b7ef388e4912473c14d336dde94cfc517"

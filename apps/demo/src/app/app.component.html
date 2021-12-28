@@ -1,17 +1,21 @@
 <div class="wrapper">
-
   <div class="sidebar" data-color="white" data-active-color="danger">
-      <demo-sidebar-cmp></demo-sidebar-cmp>
+    <demo-sidebar-cmp></demo-sidebar-cmp>
   </div>
 
   <div class="main-panel">
-      <demo-navbar-cmp></demo-navbar-cmp>
+    <demo-navbar-cmp></demo-navbar-cmp>
 
-      <div class="content">
-           
-        <router-outlet></router-outlet>          
-
+    <div class="content">
+      <router>
+        <route path="/" [exact]="false">
+          <demo-home></demo-home>
+        </route>
+        <route path="/about">
+          <demo-about></demo-about>
+        </route>
+        <route path="/flight-booking" [load]="flightBookingRouteEntry"></route>
+      </router>
     </div>
   </div>
-
 </div>

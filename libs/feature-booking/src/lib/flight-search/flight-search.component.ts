@@ -8,6 +8,7 @@ import { Component } from '@demo/util-shim';
 
 @Component({
   standalone: true,
+  selector: 'demo-flight-search',
   imports: [CommonModule, FormsModule, FlightCardComponent, CityValidator],
   // providers: [FlightService],
   template: require('./flight-search.component.html'),

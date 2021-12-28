@@ -1,0 +1,28 @@
+<div class="card">
+  <div class="card-body">
+    <ul class="nav nav-secondary">
+      <li linkActive="active">
+        <a linkTo="flight-search">Flug auswählen</a>
+      </li>
+
+      &nbsp; | &nbsp;
+      <!-- Trennzeichen zw. Menüpunkte -->
+
+      <li linkActive="active">
+        <a linkTo="passenger-search">Passagier auswählen</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<router>
+  <route path="flight-search">
+    <demo-flight-search></demo-flight-search>
+  </route>
+  <route path="flight-edit/:id">
+    <demo-flight-edit></demo-flight-edit>
+  </route>
+  <route path="passenger-search">
+    <demo-passenger-search></demo-passenger-search>
+  </route>
+</router>

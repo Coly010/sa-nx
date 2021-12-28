@@ -5,6 +5,7 @@ import { Component } from '@demo/util-shim';
 
 @Component({
   standalone: true,
+  selector: 'demo-flight-edit',
   imports: [CommonModule, RouterModule],
   template: require('./flight-edit.component.html'),
 })
